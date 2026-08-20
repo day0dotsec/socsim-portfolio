@@ -1,14 +1,14 @@
 {
   "profile": {
-    "name": "[First] [Last]",
-    "role": "[Role] · [Team]",
-    "tagline": "[One sentence — your focus areas and what you're working toward.]",
-    "location": "[City, Country]",
+    "name": "Joeben Buena",
+    "role": "Aspiring SOC Analyst | Cybersecurity & Blue Team",
+    "tagline": "Cybersecurity professional in development, focused on blue-team security, threat detection, and incident response.",
+    "location": "Melbourne, Australia",
     "photo": "",
     "theme": "operator",
     "links": {
-      "linkedin": "",
-      "github": "",
+      "linkedin": "https://www.linkedin.com/in/jbbuena",
+      "github": "https://github.com/day0dotsec",
       "email": ""
     }
   },
