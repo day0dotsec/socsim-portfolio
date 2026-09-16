@@ -35,7 +35,11 @@
       "containment": "",
       "alertTuning": "",
       "lessonsLearned": "",
-      "tools": [],
+      "tools": [
+        "•\tMicrosoft Defender for Endpoint — alert Details and Recommendations",
+        "•\tMicrosoft Defender — expanded alert process tree and remediation details",
+        "•\tMicrosoft Defender — Comments & history"
+      ],
       "customSections": [],
       "verified": false
     }
