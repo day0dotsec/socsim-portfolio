@@ -12,6 +12,33 @@
       "email": ""
     }
   },
-  "alerts": [],
+  "alerts": [
+    {
+      "id": "SOCSIM-IR-095",
+      "alertName": "Mimikatz credential theft tool (Blocked LSASS credential dumping attempt)",
+      "alertId": "da37c1f438-f9bf-4517-a913-ceb772357649_1",
+      "date": "2026-09-06",
+      "severity": "High",
+      "hostOrAccount": "ec2amaz-9oh9aqq | Windows Server 2022 | NT AUTHORITY\\SYSTEM",
+      "dateTime": "12 Jun 2026 17:21:47",
+      "whatTriggered": "Microsoft Defender for Endpoint has identified a high-severity credential access alert after detecting HackTool:Win32/Mimikatz.I in a PowerShell command attempting to download Mimikatz and run sekurlsa::logonpasswords. Defender reports it was blocked and succesfully remediated. The alert is linked to incident #95, with SandCat activity and a subsequent blocked ProcDump/LSASS attempt in the same alert story.",
+      "whyTriggered": "",
+      "whatHappened": "",
+      "evidence": "",
+      "wasSuccessful": "No",
+      "verdict": "Malicious",
+      "verdictJustification": "",
+      "investigationSteps": [],
+      "queries": "",
+      "categorisation": "TP",
+      "escalation": "Urgent",
+      "containment": "",
+      "alertTuning": "",
+      "lessonsLearned": "",
+      "tools": [],
+      "customSections": [],
+      "verified": false
+    }
+  ],
   "bec": []
 }
