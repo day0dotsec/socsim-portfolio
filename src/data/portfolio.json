@@ -38,7 +38,8 @@
       "tools": [
         "•\tMicrosoft Defender for Endpoint — alert Details and Recommendations",
         "•\tMicrosoft Defender — expanded alert process tree and remediation details",
-        "•\tMicrosoft Defender — Comments & history"
+        "•\tMicrosoft Defender — Comments & history",
+        "•\tVirusTotal"
       ],
       "customSections": [],
       "verified": false
