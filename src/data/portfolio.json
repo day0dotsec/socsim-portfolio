@@ -33,7 +33,7 @@
       "categorisation": "TP",
       "escalation": "Urgent",
       "containment": "",
-      "alertTuning": "Retain credential-access detection but do not create broad exceptions that suppress alerts for PowerShell, ProcDump, nssm.exe, or GitHub.",
+      "alertTuning": "Retain credential-access detection but do not create broad exceptions that suppress alerts for PowerShell, Mimikatz, ProcDump, nssm.exe, or downloads from GitHub or Sysinternals. These tools and services can have legitimate uses despite threat actors using them.",
       "lessonsLearned": "* A blocked credential-dumping alert can be a late stage of a wider compromise. \n* Legitimate tools such as NSSM and ProcDump require contextual analysis because a familiar file name/service or trusted download host does not make their usage non-malicious.\n* Event, detection, generation and other administrative timestamps need to be preserved separately, with timezone confirmed before correlation.",
       "tools": [
         "•\tMicrosoft Defender for Endpoint — alert Details and Recommendations",
